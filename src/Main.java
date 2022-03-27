@@ -6,17 +6,17 @@ public class Main {
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной милли
 
-        int TicketPrice = 1000;
-        int RubMilli = 20;
-        int CountMilli;
+        int ticketPrice = 1000;
+        int rubMilli = 20;
+        int countMilli;
 
 
         // Рассчитываете количество бонусных милль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
 
-        CountMilli = TicketPrice / RubMilli;
-        System.out.println(CountMilli);
+        countMilli = ticketPrice / rubMilli;
+        System.out.println(countMilli);
 
 
     }
